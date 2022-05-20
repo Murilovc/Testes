@@ -1,0 +1,193 @@
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário>npm install cypress --save -dev
+npm WARN install Usage of the `--dev` option is deprecated. Use `--include=dev` instead.
+Deseja finalizar o arquivo em lotes (S/N)?
+^C
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário>npm install cypress --save-dev
+[##################] \ reify:rxjs: timing reifyNode:nod
+
+added 139 packages, removed 68 packages, changed 32 packages, and audited 177 packages in 9m
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário>cd Testes
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>npm init --yes
+Wrote to C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes\package.json:
+
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>npm install cypress --save-dev
+
+added 165 packages, and audited 166 packages in 56s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>./node_module
+s/.bin/cypress open
+'.' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>\.node_module
+s\.bin\cypress open
+O sistema não pode encontrar o caminho especificado.
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>node_modules\.bin\cypress open
+It looks like this is your first time using Cypress: 9.6.1
+
+✔  Verified Cypress! C:\Users\User\AppData\Local\Cypress\Cache\9.6.1\Cypress
+
+Opening Cypress...
+
+[5676:0520/150746.900:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is disabled, ANGLE is
+✔  Verified Cypress! C:\Users\User\AppData\Local\Cypress\Cache\9.6.1\Cypress
+
+C:\Users\User\Sistemas de Informação\Web Academy\Módulo Intermediário\Testes>node_modules\.bin\cypress open
+
+[9436:0520/151434.316:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is disabled, ANGLE is
+Still waiting to connect to Firefox, retrying in 1 second (attempt 18/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 19/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 20/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 21/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 22/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 23/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 24/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 25/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 26/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 27/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 28/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 29/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 30/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 31/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 32/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 33/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 34/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 35/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 36/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 37/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 38/62)
+Still waiting to connect to Firefox, retrying in 1 second (attempt 39/62)
+GET /__/ 200 444.926 ms - -
+GET /__cypress/runner/cypress_runner.css 200 585.925 ms - -
+GET /__cypress/runner/cypress_runner.js 200 580.665 ms - -
+GET /__cypress/runner/favicon.ico 200 5.138 ms - -
+GET /__cypress/runner/fonts/fa-solid-900.woff2 200 83.554 ms - 76120
+GET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 200 584.053 ms - 31176
+GET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 200 482.618 ms - 14380
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 496.892 ms - -
+GET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 200 663.351 ms - 31176
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 5355.389 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 5405.206 ms - -
+GET /__cypress/runner/fonts/fa-regular-400.woff2 200 9.062 ms - 13600
+GET /__cypress/runner/fonts/mulish-latin-700-normal.woff2 200 6.542 ms - 31176
+GET /__cypress/iframes/integration%2Fongs.spec.js 304 1.789 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 304 2.011 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 10.971 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 31.670 ms - -
+GET /config/v1/Edge/101.0.1210.47?clientId=-735170032094096044&osname=win&client=edge&channel=stable&scpfull=0&scpguard=0&scpfre=0&scpver=&osarch=x86_64&osver=10.0.19043&wu=0&devicefamily=desktop&uma=0&mngd=0&installdate=1653078972&edu=0&bphint=0&soobedate=1473446535 200 1559.540 ms - -
+GET /__/ 200 2.985 ms - -
+GET /__cypress/runner/cypress_runner.css 200 6.996 ms - -
+GET /__cypress/runner/cypress_runner.js 200 11.442 ms - -
+GET /__cypress/runner/favicon.ico 200 1.925 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 1.746 ms - -
+GET /__cypress/runner/fonts/fa-solid-900.woff2 200 1.425 ms - 76120
+GET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 200 3.099 ms - 31176
+GET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 200 5.077 ms - 14380
+GET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 200 1.531 ms - 31176
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 3.283 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 207.748 ms - -
+GET /__cypress/runner/fonts/fa-regular-400.woff2 200 5.292 ms - 13600
+POST /api/shopping/v1/getsupporteddomains?appid=67220BD2169C2EA709984467C21494086DF8CA85 200 1104.239 ms - -
+GET /__cypress/runner/fonts/mulish-latin-700-normal.woff2 200 1.019 ms - 31176
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCcmLdcaTM2VsEgUNkWGVThIXCQPNs0E5ZBKtEgUNL4g-ghIFDZFhlU4=?alt=proto 200 1070.779 ms - -
+GET /abusiveadblocking/api/v1/blocklist 200 616.239 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 1.577 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 4.212 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 15.615 ms - -
+GET /__/ 200 1.137 ms - -
+GET /__cypress/runner/cypress_runner.css 200 3.686 ms - -
+GET /__cypress/runner/cypress_runner.js 200 3.567 ms - -
+GET /__cypress/runner/favicon.ico 200 1.633 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 2.182 ms - -
+GET /__cypress/runner/fonts/fa-solid-900.woff2 200 7.274 ms - 76120
+GET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 200 12.572 ms - 31176
+GET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 200 5.555 ms - 14380
+GET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 200 1.689 ms - 31176
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 8.430 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 3.982 ms - -
+GET /__cypress/runner/fonts/fa-regular-400.woff2 200 3.564 ms - 13600
+GET / 200 161.789 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCUF78_WrGeYQEgUNkWGVThIXCev-REAaT4psEgUNL4g-ghIFDZFhlU4=?alt=proto 200 732.225 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCXM6CekvUYNiEgUNZ2ez_g==?alt=proto 200 705.571 ms - -
+GET /__cypress/runner/fonts/mulish-latin-700-normal.woff2 200 4.187 ms - 31176
+GET /__cypress/iframes/integration%2Fongs.spec.js 304 2.559 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 0.802 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 2.734 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 21.886 ms - -
+GET / 200 4.629 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCXM6CekvUYNiEgUNZ2ez_g==?alt=proto 200 706.754 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 304 2.172 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 3.435 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 14.571 ms - -
+GET / 200 5.024 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCXM6CekvUYNiEgUNZ2ez_g==?alt=proto 200 703.633 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 3.272 ms - -
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 5.268 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 15.390 ms - -
+GET / 200 3.789 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCXM6CekvUYNiEgUNZ2ez_g==?alt=proto 200 981.927 ms - -
+GET /__/ 200 1.373 ms - -
+GET /__cypress/runner/cypress_runner.css 200 2.587 ms - -
+GET /config/v1/Edge/101.0.1210.47?clientId=-735170032094096044&osname=win&client=edge&channel=stable&scpfull=0&scpguard=0&scpfre=0&scpver=&osarch=x86_64&osver=10.0.19043&wu=0&devicefamily=desktop&uma=0&mngd=0&installdate=1653078972&edu=0&bphint=0&soobedate=1473446535 - - ms - -
+GET /language/query-knowledgebases/projects/Reactive-Assist-KB-Stable/qnas?api-version=2021-10-01 - - ms - -
+GET /__cypress/runner/cypress_runner.js 200 2.250 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 1.449 ms - -
+GET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 200 3.258 ms - 31176
+GET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 200 3.954 ms - 14380
+GET /__cypress/runner/fonts/fa-solid-900.woff2 200 4.292 ms - 76120
+GET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 200 1.812 ms - 31176
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 4.651 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 87.106 ms - -
+GET /__cypress/runner/fonts/fa-regular-400.woff2 200 1.435 ms - 13600
+GET /__/ 200 0.741 ms - -
+GET /__cypress/runner/cypress_runner.css 200 3.057 ms - -
+POST /api/shopping/v1/getsupporteddomains?appid=67220BD2169C2EA709984467C21494086DF8CA85 200 1254.153 ms - -
+GET /__cypress/runner/cypress_runner.js 200 2.643 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCcmLdcaTM2VsEgUNkWGVThIXCQPNs0E5ZBKtEgUNL4g-ghIFDZFhlU4=?alt=proto 200 1013.211 ms - -
+GET /__cypress/iframes/integration%2Fongs.spec.js 200 1.817 ms - -
+GET /__cypress/runner/fonts/fa-solid-900.woff2 200 5.014 ms - 76120
+GET /__cypress/runner/fonts/mulish-latin-400-normal.woff2 200 14.046 ms - 31176
+GET /__cypress/runner/fonts/open-sans-latin-400-normal.woff2 200 13.812 ms - 14380
+GET /__cypress/runner/fonts/mulish-latin-500-normal.woff2 200 1.794 ms - 31176
+GET /__cypress/tests?p=cypress%5Csupport%5Cindex.js 200 2.607 ms - -
+GET /__cypress/tests?p=cypress%5Cintegration%5Congs.spec.js 200 3.773 ms - -
+GET /__cypress/runner/fonts/fa-regular-400.woff2 200 1.739 ms - 13600
+GET / 200 4.101 ms - -
+GET /abusiveadblocking/api/v1/blocklist 200 737.542 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCXM6CekvUYNiEgUNZ2ez_g==?alt=proto 200 757.065 ms - -
+GET /autofillservice/v1/pages/ChRDaHJvbWUvMTAxLjAuNDk1MS42NBIQCUF78_WrGeYQEgUNkWGVThIXCev-REAaT4psEgUNL4g-ghIFDZFhlU4=?alt=proto 200 1060.248 ms - -
+GET /__cypress/runner/fonts/mulish-latin-700-normal.woff2 200 2.784 ms - 31176
+The automation client disconnected. Cannot continue running tests.
